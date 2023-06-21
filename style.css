@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+}
+.button{
+    display: inline-block;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+
+header{
+    background-image: url("./assets/images/simple-codelines.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.text-color{
+    color: rgba(255,255,255,0.55);
+}
+
+.search{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.sign-in:hover{
+    color:white
+}
+.form{
+    width: 400px;
+    background-color: whitesmoke;
+}
+.small-font{
+    font-size: small;
+    margin: 0px;
+    font-weight: 400;
+}
+.sign-up{
+    width: 96%;
+    height: 70px;
+    background-color: #3ca03c;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.links:hover{
+    cursor : pointer;
+}
+
+.about{
+    color: rgba(255,255,255,0.55);
+    width: 400px;
+    text-align:center;
+}
+
+#container-4{
+    margin-top: 100px;
+    background-color: #0c1181;
+    color: white;
+}
+#container-5{
+    margin-top: 70px;
+}

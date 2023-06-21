@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="bg-dark pb-5">
+		<!-- Navbar -->
+		<div class="container"  id="container-1">
+
+			<div class="row py-3">
+				<div class="col">
+					<nav class="navbar navbar-dark bg-dark navbar-expand-lg rounded-2">
+						<a class="navbar-brand ms-2">
+							<svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+								<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+							</svg>
+						</a>
+						<button class="navbar-toggler order-1" data-toggle="collapse" data-target="#myNav">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="myNav">
+							<ul class="navbar-nav me-auto">                              
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link dropdown-toggle">Why Github?</a>
+								</li>
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link">Team</a>
+								</li>
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link">Enterprise</a>
+								</li>
+		
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link dropdown-toggle">Explore</a>
+								</li>
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link">Marketplace</a>
+								</li>
+								<li class="nav-item ms-sm-2 ms-0">
+									<a class="nav-link dropdown-toggle">Pricing</a>
+								</li>
+							</ul>
+							<form action="" class="form-inline me-2 ms-sm-1 ms-0 ">
+								<div class="input-group">
+									<div class="search rounded-2">
+										<input type="text" name="" id="" placeholder="Search Github" class="btn btn-light rounded-1 bg-transparent border-0 links">
+										<svg version="1.1" class="pe-2 "id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											width="40px" height="20px" viewBox="0 0 19 20" style="enable-background:new 0 0 19 20;" xml:space="preserve">
+											<path fill="none" stroke="#979A9C" opacity="0.4" d="M3.5,0.5h12c1.7,0,3,1.3,3,3v13c0,1.7-1.3,3-3,3h-12c-1.7,0-3-1.3-3-3v-13C0.5,1.8,1.8,0.5,3.5,0.5z"/>
+											<path fill="#979A9C" d="M11.8,6L8,15.1H7.1L10.8,6L11.8,6z"/>
+										</svg>
+									</div>
+									<button type="text" class="btn mx-3 text-color sign-in">
+											Sign-In
+									</button>
+								</div>
+							</form>
+						</div>
+						<button type="text" class="btn btn-outline-light rounded-1 py-1 px-2 me-2 text-color mt-sm-2 mt-0  ms-0 mb-2 ms-auto" data-bs-toggle="modal" data-bs-target="#sign-up-form">
+								Sign up	
+						</button>
+						<div class="modal fade" id="sign-up-form">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Sign-Up</h2>
+										<button class="btn-close" data-bs-dismiss="modal" data-bs-target="#sign-up-form"></button>
+									</div>
+									<div class="form-body">
+										<main class="form-signin">
+											<form>
+												<label for="username" class="form-label ms-2 mt-3 fw-bold">Username</label>
+												<input type="text" class="form-control" id="username"> 
+												<label for="username" class="form-label ms-2 mt-3 fw-bold">Email</label>
+												<input type="text" class="form-control" id="username"> 
+												<label for="username" class="form-label ms-2 mt-3 fw-bold">Password</label>
+												<input type="text" class="form-control" id="username"> 
+												<p class="small-font mt-2 px-2">Make sure it is 15 character OR at east 8 characters including number and a lowercase letter. <a class="links">Learn more.</a></p>
+												<input type="button" value="Sign up for Github" class="btn mt-3 sign-up">
+												<p class="small-font mt-2 px-2 pb-2">By clicking "Sign up for Github" you agree with our <br>	<a class="links">Terms of Services</a>
+													and <a class="links">Privacy Statement.</a> We'll ocassionally send you account related emails.</p>
+											</form>
+										</main>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</nav>
+				</div>
+			</div>
+			<!-- form -->
+		</div>
+		
+		<div class="container d-flex justify-content-center mt-5" id="container-2">
+			<div class="about">
+				<h1 style="font-size: 70px;">Build for <br>developers</h1>
+				<p style="font-size: 25px;">Github is a developer platform inspired by the way you work. From <span class="fw-bolder">open source</span> to <span class="fw-bolder">bussiness</span>, you can host and review code, manage projexts, and build
+					software alongside 50 million developers.
+				</p>
+			</div>
+		</div>
+
+	</header>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+	<section>
+		<div class="container space-img d-flex justify-content-end" id="container-3">
+			<img src="./assets/images/space.svg" alt="space.svg" height="180px">
+		</div>
+		<div class="container bg-white rounded-2 mb-5 ">
+			<div class="row justify-content-md-between justify-content-center flex-wrap">
+				<div class="col-lg-3 my-5 ms-md-5 d-flex flex-column align-items-center text-center">
+					<h2>Get started with GitHub Enterprise</h2>
+					<p>Take collaboration to the next level with secutiy and admisnistrative features built for teams.</p>
+				</div>
+				<div class="col-lg-3 my-5 d-flex flex-column align-items-center">
+					<img src="./assets/images/enterprise.svg" alt="">
+					<h4>Enterprise</h4>
+					<p>Deploy to your enviornment or your cloud.</p>
+					<button class="btn btn-primary">Start a free trial</button>
+				</div>
+				<div class="col-lg-2 my-5 me-5 d-flex flex-column align-items-center">
+					<img src="./assets/images/support.svg" alt="">
+					<h4>Talk to us</h4>
+					<p class="mb-2">Need help?</p>
+					<button class="btn btn-outline-primary"> Contact Sales <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+					</svg></button>
+				</div>
+			</div>
+		</div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+		<div class="container rounded-2" id="container-4">
+			<div class="row d-flex justify-content-lg-around py-4 flex-column flex-lg-row">
+				<div class="col-12 col-lg-8 d-flex ms-lg-5 ms-2 flex-column flex-lg-row">
+					<button class="btn btn-outline-success rounded-3 py-0 align-self-start mt-2 me-2">New</button>
+					<div class="content">
+						<h2>GitHub is now free for teams</h2>
+						<p>GitHub Free gives teams private repositories with unlimited collaborators at no costs.
+							GitHub Team is now reduced to $4 per user/month.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3 align-self-center d-flex justify-content-center"><button class="btn btn-lg btn-primary">Try Github Free</button></div>
+			</div>
+		</div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+		
+		<div class="container" id="container-5">
+			<div class="row">
+				<div class="col text-center"><p>More than 2.9 million bussinesses and organisation use GitHub.</p></div>
+			</div>
+			<div class="row d-flex row-cols-lg-1 row-cols-3 justify-content-center align-items-center">
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/airbnb-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/sap-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/ibm-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/google-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/paypal-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px"  src="./assets/images/bloomberg-logo.png" alt=""></div>
+			</div>
+			<div class="row d-flex row-cols-lg-1 row-cols-3 justify-content-center align-items-center">
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/spotify-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/swift-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/facebook-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/node-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/nasa-logo.png" alt=""></div>
+				<div class="col-lg-1 d-flex justify-content-center"><img width="50px" src="./assets/images/walmart-logo.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
