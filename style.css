@@ -102,3 +102,9 @@ h2,h3,h4{
         margin-bottom: 50px;
     }
 }
+
+.footer-images{
+    height: 20px;
+    margin-right: 20px;
+    mix-blend-mode : darken;
+}
